@@ -46,9 +46,6 @@ export default function SpeedGauge({ value, max = 200, label, unit = "" }: Props
         </RadialBarChart>
       </div>
 
-      <div className="text-[10px] uppercase tracking-wide text-slate-500">
-        Max {max} {unit}
-      </div>
-    </div>
+          </div>
   );
 }
