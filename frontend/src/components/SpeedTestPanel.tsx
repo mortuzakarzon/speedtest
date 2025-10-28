@@ -94,19 +94,19 @@ export default function SpeedTestPanel() {
           label="Download"
           unit="Mbps"
           value={result ? result.downloadMbps : 0}
-          max={100}
+          max={50}
         />
         <SpeedGauge
           label="Upload"
           unit="Mbps"
           value={result ? result.uploadMbps : 0}
-          max={100}
+          max={50}
         />
         <SpeedGauge
           label="Ping"
           unit="ms"
           value={result ? result.pingMs : 0}
-          max={100}
+          max={50}
         />
       </div>
 
